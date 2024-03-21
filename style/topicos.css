@@ -1,0 +1,38 @@
+.topicos {
+  background: var(--azul-escuro);
+  text-align: center;
+  padding: 1em 0;
+}
+
+.topicos__titulo {
+  color: var(--branco);
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 1.5em;
+}
+
+.topicos__lista {
+  display: flex;
+  flex-wrap: wrap; /*Faz elementos quebrarem a linha ao chegar no limite do container pai*/
+  justify-content: center;
+}
+
+.topicos__lista {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.topicos__lista-itens {
+  background: var(--laranja);
+  padding: 1em;
+
+}
+
+.topicos__lista-itens-link {
+  font-size: 0.9em;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--branco);
+}
